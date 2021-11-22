@@ -1,0 +1,199 @@
+<!doctype html>
+
+<!--
+More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                background:#f7b0c5;
+                color:#ba496a;
+                font-family:Helvetica;
+                font-style: bold;
+            }
+            nav {
+                background:#91475c;
+                color:white;
+                padding:2vh;
+                font-family: Arial;
+            }
+            footer {
+                background:#91475c;
+                color:white;
+                padding:2vh;
+                height:10vh;
+                font-family: Arial;
+            }
+            .container {
+                min-height:70vh;
+                background:#dea4b5;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+                display: flex;
+                flex-direction : row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .box {
+              flex-basis: 40%;
+              text-align: center;
+              border-radius: 12px;
+              overflow: hidden;
+              background: white;
+              margin: 1rem;
+            }
+            .box-image {
+              height: 30vh;
+              background: lightgrey;
+              overflow: hidden;
+            }
+            .box-image img {
+              display: block;
+              width: 100%;
+            }
+            .box h3 {
+              background: #edc7d0;
+              padding: .75rem;
+              font-size: 1.25rem;
+            }
+            .box p {
+              padding :1rem;
+              font-size: 1.15rem;
+              background :white;
+            }
+            .box a {
+              color: #734751;
+              text-decoration: none;
+            }
+            .box:hover {
+              box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.19);
+            }
+            
+            
+            
+        </style>
+        <title>Streaming v.3</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Streaming v.3</h1>
+            <p>
+                Marouf Ahmed<br>
+                Web 1, 4th Hour<br>
+                November 11, 2021
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.netflix.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://assets.brand.microsites.netflix.io/assets/493f5bba-81a4-11e9-bf79-066b49664af6_cm_1440w.png?v=35" alt="Netflix">
+                </div>
+                <h3>Netflix</h3>
+                <p>
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.peacocktv.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://www.peacocktv.com/dam/commerce/assets/partners/logo-peacock-social-1200x628.jpg" alt="Peacock">
+                </div>
+                <h3>Peacock</h3>
+                <p>
+                    Peacock is an American over-the-top video streaming service owned and operated by the Television and Streaming division of NBCUniversal, a subsidiary of Comcast. Named after the NBC logo, the service launched on July 15, 2020. The service primarily features series and film content from NBCUniversal studios and other third-party content providers, including television series, films, news, and sports programming. The service is available in a free ad-supported version with limited content, while premium tiers include a larger content library and access to additional NBC Sports and WWE Network content.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hulu.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg" alt="Hulu">
+                </div>
+                <h3>Hulu</h3>
+                <p>
+                    Hulu is a streaming platform owned by The Walt Disney Company, with Comcast's NBCUniversal holding a minority stake. Hulu is exclusive to the United States and Japan and is not available in other countries. Hulu was initially established as a joint venture between News Corporation and NBC Universal, Providence Equity Partners, and later The Walt Disney Company, serving as an aggregation of recent episodes of television series from their respective television networks. In 2010, Hulu became the first streaming service to add "Plus" to its name when it launched a subscription service, initially branded as Hulu Plus, which featured full seasons of programs from the companies and other partners, and undelayed access to new episodes.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.disneyplus.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/M4FCHHDAKFBBBKB2SUDDP42BFM.png" alt="Disney Plus">
+                </div>
+                <h3>Disney Plus</h3>
+                <p>
+                    Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company.[1] The service primarily distributes films and television series produced by The Walt Disney Studios and Walt Disney Television, with dedicated content hubs for brands such as Disney, Pixar, Marvel, , National Geographic, and including Star in some countries. Original films and television series are also distributed on Disney+.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hbomax.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLQT2zOlOqmyG0ocscCQhhAZ6MCxPzoI3lnSBzKclg=s900-c-k-c0x00ffffff-no-rj" alt="HBO Max">
+                </div>
+                <h3>HBO Max</h3>
+                <p>
+                    HBO Max is an American subscription video on demand streaming service owned by WarnerMedia, through its WarnerMedia Direct subsidiary. The service was launched in the United States on May 27, 2020, in Latin America and the Caribbean on June 29, 2021, and in Andorra, Spain and the Nordic countries on October 26, 2021. While built around content from the namesake premium television service HBO, Max principally serves as a content hub for WarnerMedia's various film and television properties, offering a range of original programming and library content from the company as well as additional content licensed through third-party distributors.
+
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.paramountplus.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paramount_Plus.svg/1200px-Paramount_Plus.svg.png" alt="Paramount Plus">
+                </div>
+                <h3>Paramount Plus</h3>
+                <p>
+                    Paramount+ is a subscription video on-demand over-the-top streaming service owned and operated by ViacomCBS Streaming, a division of ViacomCBS. It offers original and library content from the CBS Entertainment Group and ViacomCBS Domestic Media Networks broadcast properties, as well as the Paramount Pictures library. Originally launched as CBS All Access on October 28, 2014 (10 All Access in Australia), the service was expanded and rebranded as Paramount+ on March 4, 2021, following the 2019 re-merger of CBS and Viacom.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Placeholder
+        </footer>
+    </body>
+</html>
